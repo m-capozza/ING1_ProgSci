@@ -1,6 +1,6 @@
 # Analyse des vitesses de plaques tectoniques par GNSS
 
-Projet Python scientifique pour le traitement et la visualisation des données de stations GNSS (Global Navigation Satellite System) mondiales dans le cadre de la cinématique des plaques tectoniques. Le pipeline assigne les stations aux plaques tectoniques, identifie celles situées dans des zones de déformation active, calcule les vitesses rigides prédites et produit des sorties cartographiques de qualité publication.
+Projet Python dans le cadre du cours de programmation scientifique de première année à Géodata Paris pour le traitement et la visualisation des données de stations GNSS (Global Navigation Satellite System) mondiales dans le cadre de la cinématique des plaques tectoniques. Le pipeline assigne les stations aux plaques tectoniques, identifie celles situées dans des zones de déformation active, calcule les vitesses rigides prédites et produit des sorties cartographiques de qualité publication.
 
 > **Auteurs :** CAPOZZA, PIRES GODART
 
