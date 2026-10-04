@@ -1,7 +1,7 @@
 # Analyse des vitesses de plaques tectoniques par GNSS
 
 Projet Python dans le cadre du cours de programmation scientifique de première année à Géodata Paris. 
-Traitement et visualisation des données de stations GNSS (Global Navigation Satellite System) mondiales dans le cadre de la cinématique des plaques tectoniques. Le pipeline assigne les stations aux plaques tectoniques, identifie celles situées dans des zones de déformation active, calcule les vitesses rigides prédites et produit des sorties cartographiques de qualité publication.
+Traitement et visualisation des données de stations GNSS (Global Navigation Satellite System) mondiales dans le cadre de la cinématique des plaques tectoniques. Le pipeline assigne les stations aux plaques tectoniques, identifie celles situées dans des zones de déformation active, calcule les vitesses rigides prédites et produit des sorties cartographiques.
 
 > **Auteurs :** Matteo CAPOZZA, Paloma PIRES-GODART
 
@@ -25,11 +25,11 @@ Traitement et visualisation des données de stations GNSS (Global Navigation Sat
 Ce projet implémente un pipeline complet de traitement de données géophysiques :
 
 1. **Lecture** des coordonnées et vitesses des stations GNSS depuis le jeu de données ITRF2020, des géométries de plaques tectoniques depuis un fichier GeoJSON, d'un modèle de mouvement de plaques (PMM) et d'un modèle de taux de déformation (GEM).
-2. **Attribution** de chaque station GNSS à une plaque tectonique via un algorithme de point-dans-polygone par lancer de rayon (*ray casting*).
+2. **Attribution** de chaque station GNSS à une plaque tectonique via un algorithme de point-dans-polygone par ray casting.
 3. **Marquage** des stations situées dans des zones de déformation crustale active, avec un seuil de proximité de 50 km vis-à-vis du modèle GEM.
 4. **Prédiction** de la vitesse rigide de plaque pour les stations stables, à partir du vecteur de vitesse angulaire issu du PMM.
 5. **Conversion** des vitesses cartésiennes en composantes angulaires (longitude/latitude) pour l'affichage cartographique.
-6. **Visualisation** des résultats sur des cartes mondiales avec Cartopy, selon plusieurs schémas de coloriage.
+6. **Visualisation** des résultats sur des cartes mondiales avec Cartopy.
 
 ---
 
